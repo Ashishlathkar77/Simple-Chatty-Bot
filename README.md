@@ -1,5 +1,5 @@
 def introduction():
-    print("Hello, human, my name is BB8")
+    print("Hello, human, my name is XYZ")
     print("I was created in 2020!")
 
 
@@ -39,13 +39,13 @@ def test():
     print("4. To interrupt the execution of a program.")
     anwser = int(input())
     while anwser != 2:
-        print("Wrong! Looser but go again.")
+        print("Wrong! Try again!")
         anwser = int(input())
     print("You're damn right!")
 
 
 def end():
-    print('Hasta la vista, baby!')
+    print('Have a good day!')
 
 
 introduction()
